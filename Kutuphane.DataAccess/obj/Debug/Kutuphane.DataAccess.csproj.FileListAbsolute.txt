@@ -1,0 +1,8 @@
+C:\Users\burak\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.DataAccess\bin\Debug\Kutuphane.DataAccess.dll
+C:\Users\burak\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.DataAccess\bin\Debug\Kutuphane.DataAccess.pdb
+C:\Users\burak\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.DataAccess\obj\Debug\Kutuphane.DataAccess.dll
+C:\Users\burak\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.DataAccess\obj\Debug\Kutuphane.DataAccess.pdb
+C:\Users\Smog6\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.DataAccess\bin\Debug\Kutuphane.DataAccess.dll
+C:\Users\Smog6\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.DataAccess\bin\Debug\Kutuphane.DataAccess.pdb
+C:\Users\Smog6\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.DataAccess\obj\Debug\Kutuphane.DataAccess.dll
+C:\Users\Smog6\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.DataAccess\obj\Debug\Kutuphane.DataAccess.pdb

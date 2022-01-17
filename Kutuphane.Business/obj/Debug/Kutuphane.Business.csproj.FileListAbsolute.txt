@@ -1,0 +1,15 @@
+C:\Users\burak\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\bin\Debug\Kutuphane.Business.dll
+C:\Users\burak\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\bin\Debug\Kutuphane.Business.pdb
+C:\Users\burak\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\bin\Debug\Kutuphane.DataAccess.dll
+C:\Users\burak\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\bin\Debug\Kutuphane.DataAccess.pdb
+C:\Users\burak\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\obj\Debug\Kutuphane.Business.csprojResolveAssemblyReference.cache
+C:\Users\burak\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\obj\Debug\Kutuphane.Business.dll
+C:\Users\burak\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\obj\Debug\Kutuphane.Business.pdb
+C:\Users\Smog6\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\bin\Debug\Kutuphane.Business.dll
+C:\Users\Smog6\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\bin\Debug\Kutuphane.Business.pdb
+C:\Users\Smog6\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\bin\Debug\Kutuphane.DataAccess.dll
+C:\Users\Smog6\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\bin\Debug\Kutuphane.DataAccess.pdb
+C:\Users\Smog6\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\obj\Debug\Kutuphane.Business.csprojAssemblyReference.cache
+C:\Users\Smog6\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\obj\Debug\Kutuphane.Business.csproj.CopyComplete
+C:\Users\Smog6\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\obj\Debug\Kutuphane.Business.dll
+C:\Users\Smog6\Desktop\KutuphaneProjesi\Kutuphane\Kutuphane.Business\obj\Debug\Kutuphane.Business.pdb

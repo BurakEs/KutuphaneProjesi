@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7937A1FB-1993-4C31-A410-266A66E36E12}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kutuphane.Presentation</RootNamespace>
+    <AssemblyName>Kutuphane.Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v21.2" />
+    <Reference Include="DevExpress.Pdf.v21.2.Core" />
+    <Reference Include="DevExpress.Office.v21.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v21.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v21.2.Export" />
+    <Reference Include="DevExpress.Printing.v21.2.Core" />
+    <Reference Include="DevExpress.Data.Desktop.v21.2" />
+    <Reference Include="DevExpress.Utils.v21.2" />
+    <Reference Include="DevExpress.XtraBars.v21.2" />
+    <Reference Include="DevExpress.Sparkline.v21.2.Core" />
+    <Reference Include="DevExpress.XtraEditors.v21.2" />
+    <Reference Include="DevExpress.XtraGrid.v21.2, Version=21.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v21.2, Version=21.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v21.2, Version=21.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraWizard.v21.2, Version=21.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anamenü\FRMAnamenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anamenü\FRMAnamenu.Designer.cs">
+      <DependentUpon>FRMAnamenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapHareketleri\FRMKitapAlislem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapHareketleri\FRMKitapAlislem.Designer.cs">
+      <DependentUpon>FRMKitapAlislem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapHareketleri\FRMKitapHareket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapHareketleri\FRMKitapHareket.Designer.cs">
+      <DependentUpon>FRMKitapHareket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapHareketleri\FRMKitapVerİslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapHareketleri\FRMKitapVerİslem.Designer.cs">
+      <DependentUpon>FRMKitapVerİslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapHareketleri\FRMVerilisSuresi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapHareketleri\FRMVerilisSuresi.Designer.cs">
+      <DependentUpon>FRMVerilisSuresi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitaplar\FRMKitap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitaplar\FRMKitap.Designer.cs">
+      <DependentUpon>FRMKitap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitaplar\FRMKitapBazlıArama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitaplar\FRMKitapBazlıArama.Designer.cs">
+      <DependentUpon>FRMKitapBazlıArama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitaplar\FRMKitapEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitaplar\FRMKitapEkle.Designer.cs">
+      <DependentUpon>FRMKitapEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Turler\FRMTurEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Turler\FRMTurEkle.Designer.cs">
+      <DependentUpon>FRMTurEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Turler\FRMTurler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Turler\FRMTurler.Designer.cs">
+      <DependentUpon>FRMTurler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uyeler\FRMUyeBazlıArama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uyeler\FRMUyeBazlıArama.Designer.cs">
+      <DependentUpon>FRMUyeBazlıArama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uyeler\FRMUyeEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uyeler\FRMUyeEkle.Designer.cs">
+      <DependentUpon>FRMUyeEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uyeler\FRMUyeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uyeler\FRMUyeler.Designer.cs">
+      <DependentUpon>FRMUyeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yazarlar\FRMYazarEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yazarlar\FRMYazarEkle.Designer.cs">
+      <DependentUpon>FRMYazarEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yazarlar\FRMYazarlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yazarlar\FRMYazarlar.Designer.cs">
+      <DependentUpon>FRMYazarlar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Anamenü\FRMAnamenu.resx">
+      <DependentUpon>FRMAnamenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapHareketleri\FRMKitapAlislem.resx">
+      <DependentUpon>FRMKitapAlislem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapHareketleri\FRMKitapHareket.resx">
+      <DependentUpon>FRMKitapHareket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapHareketleri\FRMKitapVerİslem.resx">
+      <DependentUpon>FRMKitapVerİslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapHareketleri\FRMVerilisSuresi.resx">
+      <DependentUpon>FRMVerilisSuresi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitaplar\FRMKitap.resx">
+      <DependentUpon>FRMKitap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitaplar\FRMKitapBazlıArama.resx">
+      <DependentUpon>FRMKitapBazlıArama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitaplar\FRMKitapEkle.resx">
+      <DependentUpon>FRMKitapEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Turler\FRMTurEkle.resx">
+      <DependentUpon>FRMTurEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Turler\FRMTurler.resx">
+      <DependentUpon>FRMTurler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uyeler\FRMUyeBazlıArama.resx">
+      <DependentUpon>FRMUyeBazlıArama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uyeler\FRMUyeEkle.resx">
+      <DependentUpon>FRMUyeEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uyeler\FRMUyeler.resx">
+      <DependentUpon>FRMUyeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yazarlar\FRMYazarEkle.resx">
+      <DependentUpon>FRMYazarEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yazarlar\FRMYazarlar.resx">
+      <DependentUpon>FRMYazarlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\web_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\web_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Kutuphane.Business\Kutuphane.Business.csproj">
+      <Project>{da0ecbb9-2684-4b22-88d6-2baba1f2b043}</Project>
+      <Name>Kutuphane.Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editcontact_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editcontact_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editcontact_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editcomment_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editcomment_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_32x32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
